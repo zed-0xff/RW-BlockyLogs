@@ -1,0 +1,7 @@
+<Patch>
+  <Operation Class="PatchOperationAttributeAdd">
+    <xpath>Defs/ThingDef[defName="WoodLog"]</xpath>
+    <value>WoodLog</value>
+    <attribute>Name</attribute>
+  </Operation>
+</Patch>
