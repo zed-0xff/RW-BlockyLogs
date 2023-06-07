@@ -20,5 +20,6 @@
   </modDependencies>
   <loadAfter>
     <li>Blocky.Core</li>
+    <li>Blocky.Trees</li>
   </loadAfter>
 </ModMetaData>

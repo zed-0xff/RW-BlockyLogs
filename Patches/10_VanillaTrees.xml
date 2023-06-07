@@ -1,0 +1,45 @@
+<Patch>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/plant/harvestedThingDef</xpath>
+    <success>Always</success>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/plant</xpath>
+    <value>
+      <harvestedThingDef>WoodLog_Birch</harvestedThingDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/harvestedThingDef</xpath>
+    <success>Always</success>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant</xpath>
+    <value>
+      <harvestedThingDef>WoodLog_Spruce</harvestedThingDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant/harvestedThingDef</xpath>
+    <success>Always</success>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant</xpath>
+    <value>
+      <harvestedThingDef>WoodLog_Oak</harvestedThingDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/harvestedThingDef</xpath>
+    <success>Always</success>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant</xpath>
+    <value>
+      <harvestedThingDef>WoodLog_Bamboo</harvestedThingDef>
+    </value>
+  </Operation>
+</Patch>

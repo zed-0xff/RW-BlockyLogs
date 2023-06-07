@@ -1,0 +1,98 @@
+<!-- trees patched by "Blocky Trees" mod, maybe other mods too -->
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[label="mangrove tree"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[label="mangrove tree"]/plant/harvestedThingDef</xpath>
+          <success>Always</success>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[label="mangrove tree"]/plant</xpath>
+          <value>
+            <harvestedThingDef>WoodLog_Mangrove</harvestedThingDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[label="jungle tree"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[label="jungle tree"]/plant/harvestedThingDef</xpath>
+          <success>Always</success>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[label="jungle tree"]/plant</xpath>
+          <value>
+            <harvestedThingDef>WoodLog_Jungle</harvestedThingDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[label="acacia tree"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[label="acacia tree"]/plant/harvestedThingDef</xpath>
+          <success>Always</success>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[label="acacia tree"]/plant</xpath>
+          <value>
+            <harvestedThingDef>WoodLog_Acacia</harvestedThingDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[label="dark oak tree"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[label="dark oak tree"]/plant/harvestedThingDef</xpath>
+          <success>Always</success>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[label="dark oak tree"]/plant</xpath>
+          <value>
+            <harvestedThingDef>WoodLog_DarkOak</harvestedThingDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <!-- vanilla Pine is already patched in 10_Vanilla.xml, but maybe some mod added a new Spruce tree -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[label="spruce tree"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[label="spruce tree"]/plant/harvestedThingDef</xpath>
+          <success>Always</success>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[label="spruce tree"]/plant</xpath>
+          <value>
+            <harvestedThingDef>WoodLog_Spruce</harvestedThingDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
