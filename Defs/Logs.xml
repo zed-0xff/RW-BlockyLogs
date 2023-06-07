@@ -4,7 +4,7 @@
     <defName>WoodLog_Birch</defName>
     <label>birch wood</label>
     <graphicData>
-      <color>(215,203,141)</color>
+      <color>(263,239,166)</color>
     </graphicData>
     <stuffProps>
       <stuffAdjective>birch</stuffAdjective>
@@ -17,7 +17,7 @@
     <defName>WoodLog_Mangrove</defName>
     <label>mangrove wood</label>
     <graphicData>
-      <color>(119,56,49)</color>
+      <color>(166,78,68)</color>
     </graphicData>
     <stuffProps>
       <stuffAdjective>mangrove</stuffAdjective>
@@ -41,7 +41,7 @@
     <defName>WoodLog_Acacia</defName>
     <label>acacia wood</label>
     <graphicData>
-      <color>(163,120,68)</color>
+      <color>(238,127,71)</color>
     </graphicData>
     <stuffProps>
       <stuffAdjective>acacia</stuffAdjective>
@@ -53,7 +53,7 @@
     <defName>WoodLog_Oak</defName>
     <label>oak wood</label>
     <graphicData>
-      <color>(163,120,68)</color>
+      <color>(231,187,113)</color>
     </graphicData>
     <stuffProps>
       <stuffAdjective>oak</stuffAdjective>
@@ -65,7 +65,7 @@
     <defName>WoodLog_Jungle</defName>
     <label>jungle wood</label>
     <graphicData>
-      <color>(163,120,68)</color>
+      <color>(229,165,117)</color>
     </graphicData>
     <stuffProps>
       <stuffAdjective>jungle</stuffAdjective>
@@ -77,7 +77,7 @@
     <defName>WoodLog_DarkOak</defName>
     <label>dark oak wood</label>
     <graphicData>
-      <color>(163,120,68)</color>
+      <color>(95,61,29)</color>
     </graphicData>
     <stuffProps>
       <stuffAdjective>dark oak</stuffAdjective>
@@ -89,7 +89,7 @@
     <defName>WoodLog_Bamboo</defName>
     <label>bamboo wood</label>
     <graphicData>
-      <color>(163,120,68)</color>
+      <color>(274,245,114)</color>
     </graphicData>
     <stuffProps>
       <stuffAdjective>bamboo</stuffAdjective>
