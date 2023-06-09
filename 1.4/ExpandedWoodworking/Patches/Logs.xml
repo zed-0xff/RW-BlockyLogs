@@ -97,7 +97,7 @@
     <success>Always</success>
     <xpath>Defs/ThingDef[defName="WoodLog_Pine"]/stuffProps/color</xpath>
     <value>
-       <color>(163,120,68)</color>
+       <color>(155,114,64)</color>
     </value>
   </Operation>
 </Patch>
