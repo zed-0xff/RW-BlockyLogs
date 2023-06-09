@@ -1,0 +1,17 @@
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="UnfinishedLumber"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Blocky/Logs/WoodLog</texPath>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="UnfinishedLumber"]/graphicData/graphicClass</xpath>
+    <value>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </value>
+  </Operation>
+</Patch>
