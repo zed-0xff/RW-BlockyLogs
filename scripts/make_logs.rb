@@ -8,8 +8,8 @@ def mask src, mask_id = 'a'
   src.copy_from(mask)
 end
 
-def make_logs src_fname
-  name = File.basename(src_fname).split(".").first.sub(/HorizontalDiagonal/,'').split('Block').first
+def make_logs src_fname, name = nil
+  name ||= File.basename(src_fname).split(".").first.sub(/HorizontalDiagonal/,'').split('Block').first
   3.times do |idx|
     letter = ('a'.ord+idx).chr
     src = Image.new(open(src_fname, "rb"))
@@ -81,8 +81,14 @@ def make_bamboo
   end
 end
 
+def make_generic
+  make_logs "scripts/WoodLog.png", "WoodLog"
+end
+
 Dir["../BlockyCore/Textures/Blocky/Alpha/?/*LogHorizontalDiagonal.png"].each do |fname|
   make_logs fname
 end
 
 make_bamboo
+make_generic
+

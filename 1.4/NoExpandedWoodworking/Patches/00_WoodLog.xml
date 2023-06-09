@@ -5,4 +5,25 @@
     <value>WoodLog</value>
     <attribute>Name</attribute>
   </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Blocky/Logs/WoodLog</texPath>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog"]/graphicData/color</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog"]/graphicData</xpath>
+    <value>
+      <color>(133,97,67)</color>
+    </value>
+  </Operation>
 </Patch>

@@ -1,0 +1,8 @@
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="WoodLogBase"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Blocky/Logs/WoodLog</texPath>
+    </value>
+  </Operation>
+</Patch>
