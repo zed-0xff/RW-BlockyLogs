@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!-- can't just patch them up here because it will reset many attributes to their defaults :( -->
+
+  <!--ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Birch</defName>
+    <graphicData>
+      <texPath>Blocky/Logs/BirchLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <color>(263,239,166)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Pine</defName>
+    <label>spruce logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/SpruceLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>spruce</stuffAdjective>
+      <color>(163,120,68)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Oak</defName>
+    <graphicData>
+      <texPath>Blocky/Logs/OakLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <color>(231,187,113)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Palm</defName>
+    <label>jungle logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/JungleLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>jungle</stuffAdjective>
+      <color>(229,165,117)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoodLogBase">
+    <defName>Bamboo</defName>
+    <graphicData>
+      <texPath>Blocky/Logs/Bamboo</texPath>
+    </graphicData>
+    <stuffProps>
+      <color>(274,245,114)</color>
+    </stuffProps>
+    <statBases>
+      <Mass>0.2</Mass>
+    </statBases>
+  </ThingDef-->
+</Defs>

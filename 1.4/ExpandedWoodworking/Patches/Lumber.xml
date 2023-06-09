@@ -1,0 +1,81 @@
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Normal</success>
+    <xpath>Defs/ThingDef[defName="LumberBirch"]/graphicData/color</xpath>
+    <value>
+       <color>(263,239,166)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Normal</success>
+    <xpath>Defs/ThingDef[defName="LumberOak"]/graphicData/color</xpath>
+    <value>
+      <color>(231,187,113)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Normal</success>
+    <xpath>Defs/ThingDef[defName="LumberPalm"]/graphicData/color</xpath>
+    <value>
+      <color>(229,165,117)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Normal</success>
+    <xpath>Defs/ThingDef[defName="LumberBamboo"]/graphicData/color</xpath>
+    <value>
+      <color>(274,245,114)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Normal</success>
+    <xpath>Defs/ThingDef[defName="LumberPine"]/graphicData/color</xpath>
+    <value>
+       <color>(163,120,68)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Normal</success>
+    <xpath>Defs/ThingDef[defName="LumberBirch"]/stuffProps/color</xpath>
+    <value>
+       <color>(263,239,166)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Normal</success>
+    <xpath>Defs/ThingDef[defName="LumberOak"]/stuffProps/color</xpath>
+    <value>
+      <color>(231,187,113)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Normal</success>
+    <xpath>Defs/ThingDef[defName="LumberPalm"]/stuffProps/color</xpath>
+    <value>
+      <color>(229,165,117)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Normal</success>
+    <xpath>Defs/ThingDef[defName="LumberBamboo"]/stuffProps/color</xpath>
+    <value>
+      <color>(274,245,114)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Normal</success>
+    <xpath>Defs/ThingDef[defName="LumberPine"]/stuffProps/color</xpath>
+    <value>
+       <color>(163,120,68)</color>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberMangrove</defName>
+		<label>make mangrove lumber</label>
+		<description>Process raw mangrove logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog_Mangrove</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog_Mangrove</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberMangrove>30</LumberMangrove>
+		</products>
+  </RecipeDef>
+
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberAcacia</defName>
+		<label>make acacia lumber</label>
+		<description>Process raw acacia logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog_Acacia</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog_Acacia</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberAcacia>30</LumberAcacia>
+		</products>
+  </RecipeDef>
+
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberDarkOak</defName>
+		<label>make dark oak lumber</label>
+		<description>Process raw dark oak logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog_DarkOak</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog_DarkOak</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberDarkOak>30</LumberDarkOak>
+		</products>
+	</RecipeDef>
+</Defs>

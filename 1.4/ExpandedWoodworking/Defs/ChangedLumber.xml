@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!--ThingDef ParentName="WoodLumberBase">
+    <defName>LumberBirch</defName>
+    <graphicData>
+      <color>(263,239,166)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(263,239,166)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoodLumberBase">
+    <defName>LumberPine</defName>
+    <label>spruce lumber</label>
+    <description>Processed spruce lumber. Mostly useful for building long-lasting, simple structures and furniture. Spruce is a moderate to low durability softwood.</description>
+    <graphicData>
+      <color>(163,120,68)</color>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>spruce</stuffAdjective>
+      <color>(163,120,68)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoodLumberBase">
+    <defName>LumberOak</defName>
+    <graphicData>
+      <color>(231,187,113)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(231,187,113)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoodLumberBase">
+    <defName>LumberPalm</defName>
+    <label>jungle lumber</label>
+    <graphicData>
+      <color>(229,165,117)</color>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>jungle</stuffAdjective>
+      <color>(229,165,117)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoodLumberBase">
+    <defName>LumberBamboo</defName>
+    <graphicData>
+      <color>(274,245,114)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(274,245,114)</color>
+    </stuffProps>
+    <statBases>
+      <Mass>0.2</Mass>
+    </statBases>
+  </ThingDef-->
+</Defs>

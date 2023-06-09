@@ -1,0 +1,103 @@
+<Patch>
+  <!-- cleanup -->
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Birch" or defName="WoodLog_Pine" or defName="WoodLog_Oak" or defName="WoodLog_Palm" or defName="Bamboo"]/graphicData/color</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Birch" or defName="WoodLog_Pine" or defName="WoodLog_Oak" or defName="WoodLog_Palm" or defName="Bamboo"]/graphicData/texPath</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Birch" or defName="WoodLog_Pine" or defName="WoodLog_Oak" or defName="WoodLog_Palm" or defName="Bamboo"]/graphicData/graphicClass</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Birch" or defName="WoodLog_Pine" or defName="WoodLog_Oak" or defName="WoodLog_Palm" or defName="Bamboo"]/graphicData/graphicClass</xpath>
+    <value>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </value>
+  </Operation>
+
+  <!-- patch logs -->
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Birch"]/graphicData</xpath>
+    <value>
+      <texPath>Blocky/Logs/BirchLog</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Birch"]/stuffProps/color</xpath>
+    <value>
+       <color>(263,239,166)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Oak"]/graphicData</xpath>
+    <value>
+      <texPath>Blocky/Logs/OakLog</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Oak"]/stuffProps/color</xpath>
+    <value>
+      <color>(231,187,113)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Palm"]/graphicData</xpath>
+    <value>
+      <texPath>Blocky/Logs/JungleLog</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Palm"]/stuffProps/color</xpath>
+    <value>
+      <color>(229,165,117)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Bamboo"]/graphicData</xpath>
+    <value>
+      <texPath>Blocky/Logs/Bamboo</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Bamboo"]/stuffProps/color</xpath>
+    <value>
+      <color>(274,245,114)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Pine"]/graphicData</xpath>
+    <value>
+      <texPath>Blocky/Logs/SpruceLog</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="WoodLog_Pine"]/stuffProps/color</xpath>
+    <value>
+       <color>(163,120,68)</color>
+    </value>
+  </Operation>
+</Patch>

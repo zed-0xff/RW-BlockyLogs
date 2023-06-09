@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Mangrove</defName>
+    <label>mangrove logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/MangroveLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>mangrove</stuffAdjective>
+      <color>(166,78,68)</color>
+      <statFactors>
+        <Beauty>2</Beauty>
+      </statFactors>
+    </stuffProps>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <LumberMangrove>30</LumberMangrove>
+    </butcherProducts>
+  </ThingDef>
+
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_DarkOak</defName>
+    <label>dark oak logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/DarkOakLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>dark oak</stuffAdjective>
+      <color>(95,61,29)</color>
+      <statFactors>
+        <DoorOpenSpeed>1</DoorOpenSpeed>
+        <MaxHitPoints>0.75</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+    <statBases>
+      <Flammability>0.5</Flammability>
+      <Mass>0.8</Mass>
+    </statBases>
+    <butcherProducts>
+      <LumberDarkOak>30</LumberDarkOak>
+    </butcherProducts>
+  </ThingDef>
+
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Acacia</defName>
+    <label>acacia logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/AcaciaLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>acacia</stuffAdjective>
+      <color>(238,127,71)</color>
+      <statFactors>
+        <Beauty>2.5</Beauty>
+      </statFactors>
+    </stuffProps>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <LumberAcacia>30</LumberAcacia>
+    </butcherProducts>
+  </ThingDef>
+</Defs>

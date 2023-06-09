@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeWoodLumberPine.label>make spruce lumber</MakeWoodLumberPine.label>
+  <MakeWoodLumberPine.description>Process raw spruce logs into lumber for construction.</MakeWoodLumberPine.description>
+
+  <MakeWoodLumberPalm.label>make jungle lumber</MakeWoodLumberPalm.label>
+  <MakeWoodLumberPalm.description>Process raw jungle logs into lumber for construction.</MakeWoodLumberPalm.description>
+</LanguageData>
