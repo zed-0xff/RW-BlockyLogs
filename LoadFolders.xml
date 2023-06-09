@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
   <v1.4>
-    <li>1.4/00_Common</li>
     <li IfModActive="Aquiles.ExpandWoodwork">1.4/ExpandedWoodworking</li>
     <li IfModNotActive="Aquiles.ExpandWoodwork">1.4/NoExpandedWoodworking</li>
     <li/>

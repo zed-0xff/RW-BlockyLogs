@@ -1,5 +1,5 @@
 # Blocky Logs
-[![Blocky Logs](About/Preview.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=)
+[![Blocky Logs](About/Preview.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2986960956)
 
 Wood types & colors from Minecraft:
 - Acacia
