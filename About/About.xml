@@ -7,9 +7,29 @@
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
-  <description>FIXME
+  <description><![CDATA[<color=#1a8bff><b>Blocky Logs</b></color>
 
-[url=https://ko-fi.com/K3K81Z3W5][img]https://i.imgur.com/Utx6OIH.png[/img][/url]</description>
+Wood types & colors from Minecraft:
+- Acacia
+- Bamboo
+- Birch
+- Dark oak
+- Jungle
+- Mangrove
+- Oak
+- Spruce
+Matches best with <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2983608933">Blocky Trees</a>, but not necessarily.
+If any mod add trees with matching names, their wood type will be changed.
+If <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2882494600">Expanded Woodworking</a> is active then corresponding lumber types are also added, along with Minecraft planks texture.
+
+<color=#1a8bff><b>Verified compatible/supported mods</b></color>
+  • <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2882494600">Expanded Woodworking</a>
+  • <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=836912371">Extended Woodworking</a>
+
+https://github.com/zed-0xff/RW-BlockyLogs
+
+<color=#1a8bff><b>Support me</b></color>
+https://ko-fi.com/K3K81Z3W5 or https://www.patreon.com/zed_0xff]]></description>
   <modDependencies>
     <li>
       <packageId>Blocky.Core</packageId>
