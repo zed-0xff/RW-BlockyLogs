@@ -18,8 +18,10 @@ If [Expanded Woodworking](https://steamcommunity.com/sharedfiles/filedetails/?id
 
 ## Verified compatible/supported mods
 
+- [Blocky Trees](https://steamcommunity.com/sharedfiles/filedetails/?id=2983608933)
 - [Expanded Woodworking](https://steamcommunity.com/sharedfiles/filedetails/?id=2882494600)
 - [Extended Woodworking](https://steamcommunity.com/sharedfiles/filedetails/?id=836912371)
+- [Advanced Biomes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2052116426)
 
 ## You may also like...
 
