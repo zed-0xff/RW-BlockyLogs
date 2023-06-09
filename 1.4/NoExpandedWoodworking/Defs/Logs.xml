@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="Blocky_Logs_Base" ParentName="WoodLog" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories Inherit="False">
+      <li>WoodTypes</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="Blocky_Logs_Base">
+    <defName>WoodLog_Birch</defName>
+    <label>birch logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/BirchLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>birch</stuffAdjective>
+      <!--color>(271,247,170)</color-->
+      <color>(263,239,166)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="Blocky_Logs_Base">
+    <defName>WoodLog_Mangrove</defName>
+    <label>mangrove logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/MangroveLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>mangrove</stuffAdjective>
+      <color>(166,78,68)</color>
+      <statFactors>
+        <Beauty>2</Beauty>
+      </statFactors>
+    </stuffProps>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="Blocky_Logs_Base">
+    <defName>WoodLog_Pine</defName> <!-- as in other mods -->
+    <label>spruce logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/SpruceLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>spruce</stuffAdjective>
+      <color>(163,120,68)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="Blocky_Logs_Base">
+    <defName>WoodLog_Acacia</defName>
+    <label>acacia logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/AcaciaLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>acacia</stuffAdjective>
+      <color>(238,127,71)</color>
+      <statFactors>
+        <Beauty>2.5</Beauty>
+      </statFactors>
+    </stuffProps>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="Blocky_Logs_Base">
+    <defName>WoodLog_Oak</defName>
+    <label>oak logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/OakLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>oak</stuffAdjective>
+      <color>(231,187,113)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="Blocky_Logs_Base">
+    <defName>WoodLog_Palm</defName> <!-- as in other mods -->
+    <label>jungle logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/JungleLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>jungle</stuffAdjective>
+      <color>(229,165,117)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="Blocky_Logs_Base">
+    <defName>WoodLog_DarkOak</defName>
+    <label>dark oak logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/DarkOakLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>dark oak</stuffAdjective>
+      <color>(95,61,29)</color>
+      <statFactors>
+        <DoorOpenSpeed>1.05</DoorOpenSpeed>
+        <MaxHitPoints>0.75</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+    <statBases>
+      <Flammability>0.5</Flammability>
+      <Mass>0.8</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="Blocky_Logs_Base">
+    <defName>Bamboo</defName> <!-- as in Expanded Woodworking -->
+    <label>bamboo</label>
+    <graphicData>
+      <texPath>Blocky/Logs/Bamboo</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>bamboo</stuffAdjective>
+      <color>(274,245,114)</color>
+      <statFactors>
+        <MaxHitPoints>0.35</MaxHitPoints>
+        <Beauty>1.4</Beauty>
+        <WorkToMake>0.5</WorkToMake>
+        <WorkToBuild>0.5</WorkToBuild>
+        <DoorOpenSpeed>1.5</DoorOpenSpeed>
+      </statFactors>
+    </stuffProps>
+    <statBases>
+      <Mass>0.2</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>

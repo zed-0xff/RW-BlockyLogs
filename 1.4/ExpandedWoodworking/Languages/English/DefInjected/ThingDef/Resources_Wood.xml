@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- rename woodtypes -->
+
+	<WoodLog_Palm.label>jungle logs</WoodLog_Palm.label>
+	<WoodLog_Palm.stuffProps.stuffAdjective>jungle</WoodLog_Palm.stuffProps.stuffAdjective>
+	
+	<WoodLog_Pine.label>spruce logs</WoodLog_Pine.label>
+	<WoodLog_Pine.description>Raw wood from a spruce tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Pine is a moderate to low durability softwood.</WoodLog_Pine.description>
+	<WoodLog_Pine.stuffProps.stuffAdjective>spruce</WoodLog_Pine.stuffProps.stuffAdjective>
+
+</LanguageData>

@@ -1,5 +1,6 @@
 <Patch>
   <Operation Class="PatchOperationAttributeAdd">
+    <success>Always</success>
     <xpath>Defs/ThingDef[defName="WoodLog"]</xpath>
     <value>WoodLog</value>
     <attribute>Name</attribute>

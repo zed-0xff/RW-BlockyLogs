@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!-- change texture & color -->
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Birch</defName>
+    <graphicData>
+      <texPath>Blocky/Logs/BirchLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <color>(263,239,166)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <!-- new -->
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Mangrove</defName>
+    <label>mangrove logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/MangroveLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>mangrove</stuffAdjective>
+      <color>(166,78,68)</color>
+      <statFactors>
+        <Beauty>2</Beauty>
+      </statFactors>
+    </stuffProps>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <!-- rename, change texture & color -->
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Pine</defName>
+    <label>spruce logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/SpruceLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>spruce</stuffAdjective>
+      <color>(163,120,68)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <!-- new -->
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Acacia</defName>
+    <label>acacia logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/AcaciaLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>acacia</stuffAdjective>
+      <color>(238,127,71)</color>
+      <statFactors>
+        <Beauty>2.5</Beauty>
+      </statFactors>
+    </stuffProps>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <!-- change texture & color -->
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Oak</defName>
+    <graphicData>
+      <texPath>Blocky/Logs/OakLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <color>(231,187,113)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <!-- rename, change texture & color -->
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_Palm</defName>
+    <label>jungle logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/JungleLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>jungle</stuffAdjective>
+      <color>(229,165,117)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <!-- new -->
+  <ThingDef ParentName="WoodLogBase">
+    <defName>WoodLog_DarkOak</defName>
+    <label>dark oak logs</label>
+    <graphicData>
+      <texPath>Blocky/Logs/DarkOakLog</texPath>
+    </graphicData>
+    <stuffProps>
+      <stuffAdjective>dark oak</stuffAdjective>
+      <color>(95,61,29)</color>
+      <statFactors>
+        <DoorOpenSpeed>1.05</DoorOpenSpeed>
+        <MaxHitPoints>0.75</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+    <statBases>
+      <Flammability>0.5</Flammability>
+      <Mass>0.8</Mass>
+    </statBases>
+  </ThingDef>
+
+  <!-- texture, color -->
+  <ThingDef ParentName="WoodLogBase">
+    <defName>Bamboo</defName>
+    <graphicData>
+      <texPath>Blocky/Logs/Bamboo</texPath>
+    </graphicData>
+    <stuffProps>
+      <color>(274,245,114)</color>
+    </stuffProps>
+    <statBases>
+      <Mass>0.2</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>

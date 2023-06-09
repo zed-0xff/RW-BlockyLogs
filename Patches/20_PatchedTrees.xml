@@ -31,7 +31,7 @@
         <li Class="PatchOperationAdd">
           <xpath>Defs/ThingDef[label="jungle tree"]/plant</xpath>
           <value>
-            <harvestedThingDef>WoodLog_Jungle</harvestedThingDef>
+            <harvestedThingDef>WoodLog_Palm</harvestedThingDef>
           </value>
         </li>
       </operations>
@@ -89,7 +89,7 @@
         <li Class="PatchOperationAdd">
           <xpath>Defs/ThingDef[label="spruce tree"]/plant</xpath>
           <value>
-            <harvestedThingDef>WoodLog_Spruce</harvestedThingDef>
+            <harvestedThingDef>WoodLog_Pine</harvestedThingDef>
           </value>
         </li>
       </operations>

@@ -17,7 +17,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant</xpath>
     <value>
-      <harvestedThingDef>WoodLog_Spruce</harvestedThingDef>
+      <harvestedThingDef>WoodLog_Pine</harvestedThingDef>
     </value>
   </Operation>
 
@@ -39,7 +39,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant</xpath>
     <value>
-      <harvestedThingDef>WoodLog_Bamboo</harvestedThingDef>
+      <harvestedThingDef>Bamboo</harvestedThingDef>
     </value>
   </Operation>
 </Patch>
