@@ -19,7 +19,7 @@
     <stuffProps>
       <stuffAdjective>birch</stuffAdjective>
       <!--color>(271,247,170)</color-->
-      <color>(263,239,166)</color>
+      <color>(255, 232, 160)</color>
     </stuffProps>
   </ThingDef>
 
@@ -31,7 +31,7 @@
     </graphicData>
     <stuffProps>
       <stuffAdjective>mangrove</stuffAdjective>
-      <color>(166,78,68)</color>
+      <color>(155, 71, 63)</color>
       <statFactors>
         <Beauty>2</Beauty>
       </statFactors>
@@ -49,7 +49,7 @@
     </graphicData>
     <stuffProps>
       <stuffAdjective>spruce</stuffAdjective>
-      <color>(155,114,64)</color>
+      <color>(151, 111, 63)</color>
     </stuffProps>
   </ThingDef>
 
@@ -61,7 +61,7 @@
     </graphicData>
     <stuffProps>
       <stuffAdjective>acacia</stuffAdjective>
-      <color>(238,127,71)</color>
+      <color>(223, 119, 66)</color>
       <statFactors>
         <Beauty>2.5</Beauty>
       </statFactors>
@@ -79,7 +79,7 @@
     </graphicData>
     <stuffProps>
       <stuffAdjective>oak</stuffAdjective>
-      <color>(231,187,113)</color>
+      <color>(215, 172, 103)</color>
     </stuffProps>
   </ThingDef>
 
@@ -91,7 +91,7 @@
     </graphicData>
     <stuffProps>
       <stuffAdjective>jungle</stuffAdjective>
-      <color>(229,165,117)</color>
+      <color>(212, 152, 106)</color>
     </stuffProps>
   </ThingDef>
 
@@ -103,7 +103,7 @@
     </graphicData>
     <stuffProps>
       <stuffAdjective>dark oak</stuffAdjective>
-      <color>(95,61,29)</color>
+      <color>(87, 57, 26)</color>
       <statFactors>
         <DoorOpenSpeed>1.05</DoorOpenSpeed>
         <MaxHitPoints>0.75</MaxHitPoints>
@@ -123,7 +123,7 @@
     </graphicData>
     <stuffProps>
       <stuffAdjective>bamboo</stuffAdjective>
-      <color>(274,245,114)</color>
+      <color>(274,245,114)</color> <!-- FIXME -->
       <statFactors>
         <MaxHitPoints>0.35</MaxHitPoints>
         <Beauty>1.4</Beauty>
